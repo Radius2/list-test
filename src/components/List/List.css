@@ -1,0 +1,34 @@
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    padding: 6px;
+    margin: 4px 0;
+    display: flex;
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+.row:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.row:last-of-type {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.row span:nth-child(1) {
+    width: 32px;
+}
+
+.row span:nth-child(2) {
+    flex: 1;
+}
+
+.row span:nth-child(3) {
+    width: 150px;
+}

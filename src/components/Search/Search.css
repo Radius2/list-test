@@ -1,0 +1,17 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+.search-container input {
+    margin-left: 5px;
+}
+
+.solid {
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ffffff;
+}
